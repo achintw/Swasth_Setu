@@ -1,5 +1,5 @@
 # Application preview :-
-<img src="swasth_sethu/preview/1.jpg" width=250 height=500><div>  </div><img src="swasth_sethu/preview/2.jpg" width=250 height=500> 
+<img src="swasth_sethu/preview/1.jpg" width=250 height=500><div style="margin-left:20px;"><img src="swasth_sethu/preview/2.jpg" width=250 height=500></div>
 
 <img src="swasth_sethu/preview/3.jpg" width=250 height=500>   <img src="swasth_sethu/preview/4.jpg" width=250 height=500>
 
