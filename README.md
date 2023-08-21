@@ -1,5 +1,5 @@
 # Application preview :-
-<img src="swasth_sethu/preview/1.jpg" width=400 height=500>
+<img src="swasth_sethu/preview/1.jpg" width=250 height=500>
 
 ![IMG-20230822-WA0006](https://github.com/achintw/Swasth_Setu/assets/121821415/b6f262d3-a61d-49c6-a429-da8944815eaa)
 
