@@ -1,6 +1,6 @@
 # Application preview :-
-![IMG-20230822-WA0005](https://github.com/achintw/Swasth_Setu/assets/121821415/8e9c08a7-9c77-43b1-940b-c76770692e9b)
-<img src="[pic.jpg](https://github.com/achintw/Swasth_Setu/assets/121821415/8e9c08a7-9c77-43b1-940b-c76770692e9b)" alt="mypic" style="width:200px; height:200px"/>
+![test image 1](swasth_sethu/preview/1.jpg)
+<img src="swasth_sethu/preview/1.jpg" width=600 height=300>
 
 ![IMG-20230822-WA0006](https://github.com/achintw/Swasth_Setu/assets/121821415/b6f262d3-a61d-49c6-a429-da8944815eaa)
 
