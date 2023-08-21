@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swasth_sethu"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="33" />
+
+    <permission
+        android:name="com.example.swasth_sethu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.swasth_sethu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Swasth_sethu">
+        <activity
+            android:name="com.example.swasth_sethu.levelcomplete"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.welcome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.candycrush"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.third"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.third2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.third3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.third4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.abs"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.full_body"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.leg"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.arm"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.plan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.generating"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.bmi"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.focusF"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.focusM"
+            android:exported="false" />
+        <activity
+            android:name="com.example.swasth_sethu.Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.swasth_sethu.MainActivity"
+            android:exported="true" />
+
+        <service
+            android:name="com.example.swasth_sethu.sound"
+            android:enabled="true" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.swasth_sethu.androidx-startup"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
